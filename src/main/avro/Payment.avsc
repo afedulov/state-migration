@@ -1,0 +1,27 @@
+{
+  "namespace": "com.ververica.models",
+  "type": "record",
+  "name": "Payment",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "orderId",
+      "type": "long"
+    },
+    {
+      "name": "paymentDate",
+      "type": "long"
+    },
+    {
+      "name": "amount",
+      "type": "float"
+    },
+    {
+      "name": "employeeId",
+      "type": "long"
+    }
+  ]
+}
